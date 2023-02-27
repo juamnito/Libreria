@@ -1,0 +1,62 @@
+@inject CarroServicio CarroServicio;
+
+<h1>Tu carrito</h1>
+
+@if(CarroServicio.LibrosSeleccionados.Any()){
+    @if(@CarroServicio.LibrosSeleccionados.Count() == 1) {
+        <h2>Llevas contigo @CarroServicio.LibrosSeleccionados.Count() libro </h2>
+    } else {
+        <h2>Llevas contigo @CarroServicio.LibrosSeleccionados.Count() libros </h2>
+    }
+}
+
+@if(CarroServicio.LibrosSeleccionados.Any()) {
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                @foreach(var libro in LibrosSeleccionados) {
+                    <div class="col-auto mb-3">
+                        <div class="card h-100" style="width: 16rem;">
+                            <img src=@libro.Imagen class="card-img-top" alt="@libro.Titulo">
+                            <div class="card-body">
+                                <h5 class="card-title">@libro.Titulo</h5>
+                                <p class="card-text">
+                                    <b>Editorial:</b> @libro.Editorial<br>
+                                    <b>Edición:</b> @libro.Edicion<br>
+                                    <b>ISBN:</b> @libro.ISBN<br>
+                                    <b>Precio:</b> $@libro.Precio<br>
+                                </p>
+                                <button class="btn btn-danger" type="button"
+                                    @onclick="()=>Eliminar(libro.ISBN)"
+                                    >Quitar del carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Finaliza tu pedido</h4>
+                        <p class="card-text">
+                            Total a pagar: $@CarroServicio.precioTotal
+                        </p>
+                        <a class="btn btn-warning" href="pago">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+} else {
+    <p>
+        Tu carrito está vacío. Visita el <a href="catalogo" style="color:red; text-decoration: none;"><b>Catálogo</b></a> para ver nuestra oferta de libros.
+    </p>
+}
+
+
+@code {
+    [Parameter] public List<Libro> LibrosSeleccionados { get; set; }
+    public void Eliminar(long ISBN) {
+        CarroServicio.BorrarDelCarrito(ISBN);
+    }
+}    

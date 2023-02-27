@@ -1,0 +1,14 @@
+@page "/pago"
+@inject CarroServicio CarroServicio;
+
+<form action="" style="width: 500px">
+    <div class="mb-3 form-check">
+        <label for="NombreCliente">Nombre</label>
+        <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
+    </div>
+    <div class="mb-3 form-check">
+        <label for="NombreCliente">Dirección</label>
+        <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
+    </div>
+    <a href="gracias" class="btn btn-warning">Pagar $@CarroServicio.precioTotal</a>
+</form>

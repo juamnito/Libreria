@@ -1,0 +1,12 @@
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/bin/Debug/net7.0/Libreria.Shared.deps.json
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/bin/Debug/net7.0/Libreria.Shared.dll
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/bin/Debug/net7.0/Libreria.Shared.pdb
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/Libreria.Shared.csproj.AssemblyReference.cache
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/Libreria.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/Libreria.Shared.AssemblyInfoInputs.cache
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/Libreria.Shared.AssemblyInfo.cs
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/Libreria.Shared.csproj.CoreCompileInputs.cache
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/Libreria.Shared.dll
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/refint/Libreria.Shared.dll
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/Libreria.Shared.pdb
+/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/obj/Debug/net7.0/ref/Libreria.Shared.dll

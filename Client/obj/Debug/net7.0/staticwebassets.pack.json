@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/obj/Debug/net7.0/build-gz/i3JZueMt.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/obj/Debug/net7.0/scopedcss/bundle/Libreria.Client.styles.css",
+      "PackagePath": "staticwebassets/Libreria.Client.styles.css"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Client/wwwroot/library.jpg",
+      "PackagePath": "staticwebassets/library.jpg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Libreria.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Libreria.Client.props",
+      "PackagePath": "build\\Libreria.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Libreria.Client.props",
+      "PackagePath": "buildMultiTargeting\\Libreria.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Libreria.Client.props",
+      "PackagePath": "buildTransitive\\Libreria.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

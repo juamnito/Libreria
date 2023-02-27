@@ -1,0 +1,13 @@
+@page "/gracias"
+@inject CarroServicio CarroServicio;
+
+<h1>¡Gracias por tu compra!</h1>
+
+@code{
+    protected override Task OnInitializedAsync()
+    {
+        CarroServicio.VaciarCarrito();
+        return base.OnParametersSetAsync();
+    }
+
+}

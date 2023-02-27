@@ -1,0 +1,48 @@
+﻿@page "/catalogo"
+@inject CarroServicio CarroServicio;
+
+<PageTitle>Catálogo</PageTitle>
+
+<h1>Catálogo de libros</h1>
+
+<div class="container">
+    <div class="row">
+        @foreach(var libro in catalogoLibros) {
+            <div class="col-auto mb-3">
+                <div class="card h-100" style="width: 16rem;">
+                    <img src=@libro.Imagen class="img-fluid img-thumbnail" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">@libro.Titulo</h5>
+                        <p class="card-text">
+                            <b style="color: red; font-size: x-large;">$@libro.Precio</b><br>
+                            <b>Editorial:</b> @libro.Editorial<br>
+                            <b>Edición:</b> @libro.Edicion<br>
+                            <b>ISBN:</b> @libro.ISBN<br>
+                        </p>
+                        @if(CarroServicio.EnCarrito(libro.ISBN)){
+                            <b style="color: green; font-size: large;">¡En carrito!</b>
+                        }
+                        else {
+                            <button class="btn btn-warning" type="button"
+                                @onclick="()=>Comprar(libro.ISBN)"
+                                >Agregar al carrito</button>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    List<Libro> catalogoLibros = new List<Libro>();
+    public void Comprar(long ISBN) {
+        CarroServicio.AgregarAlCarrito(ISBN);
+    }
+
+    protected override Task OnInitializedAsync()
+    {
+        catalogoLibros = LibroServicio.Catalogo;
+        return base.OnParametersSetAsync();
+    }
+}

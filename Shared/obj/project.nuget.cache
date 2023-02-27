@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vWCDpLkItSdXi3dqLAGIM9/LXYaRfEgS+MzfzhYUZAFol1Pbfu/fve171TzF3fqEuzpJaDtgSmHXvcfuh7WtGw==",
+  "success": true,
+  "projectFilePath": "/home/juamnito/Documentos/licenciatura/materias/progweb/tareas/Libreria/Shared/Libreria.Shared.csproj",
+  "expectedPackageFiles": [
+    "/home/juamnito/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.2/microsoft.aspnetcore.app.ref.7.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

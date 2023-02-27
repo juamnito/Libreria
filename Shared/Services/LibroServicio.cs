@@ -1,0 +1,86 @@
+using Libreria.Shared.Models;
+
+public static class LibroServicio {
+    public static readonly List<Libro> Catalogo = new List<Libro>{
+        new Libro{
+            Titulo = "Cien años de soledad",
+            Editorial = "Diana México",
+            ISBN = 9786070728792,
+            Edicion = 2,
+            Precio = 258.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/9/7/9786070728792_487e.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=300:478",
+        },
+        new Libro{
+            Titulo = "El amor en los tiempos del cólera",
+            Editorial = "Diana México",
+            ISBN = 9786070704413,
+            Edicion = 3,
+            Precio = 157.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/9/7/9786070704413_1965.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=300:478",
+        },
+        new Libro{
+            Titulo = "Trilogía El Señor de los Anillos",
+            Editorial = "Minotauro",
+            ISBN = 9788445001288,
+            Edicion = 3,
+            Precio = 249.0f,
+            Imagen = "https://kbimages1-a.akamaihd.net/Images/48f2d998-f2fc-4688-9fa8-9f9f130795e3/265/265/False/image.jpg",
+        },
+        new Libro{
+            Titulo = "Paradiso",
+            Editorial = "Ediciones Era",
+            ISBN = 9786074455915,
+            Edicion = 3,
+            Precio = 448.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/9/7/9786074455915_183a.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=300:478",
+        },
+        new Libro{
+            Titulo = "La cabeza de Pancho Villa",
+            Editorial = "La cabeza de Pancho Villa",
+            ISBN = 9789709870305,
+            Edicion = 3,
+            Precio = 159.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/t/m/tmp9789709870305_3411.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        },
+        new Libro{
+            Titulo = "Paquete Sofia Segovia",
+            Editorial = "Lumen",
+            ISBN = 7503028747900,
+            Edicion = 3,
+            Precio = 779.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/t/m/tmp7503028747900_6c4c.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=300:478",
+        },           
+        new Libro{
+            Titulo = "Mi nombre es Lucia Joyce",
+            Editorial = "Editorial Dos Lineas",
+            ISBN = 9786077884033,
+            Edicion = 3,
+            Precio = 243.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/t/m/tmp9786077884033_55b2.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=300:478",
+        },
+        new Libro{
+            Titulo = "Un mundo feliz",
+            Editorial = "Ediciones Gandhi",
+            ISBN = 9786073807432,
+            Edicion = 3,
+            Precio = 269.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/9/7/9786073807432_b062.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=300:478",
+        },
+        new Libro{
+            Titulo = "Revolución de la mente. La vida de André Breton",
+            Editorial = "Fondo de Cultura Económica",
+            ISBN = 9786071600929,
+            Edicion = 3,
+            Precio = 361.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/9/7/9786071600929.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=300:478",
+        },
+        new Libro{
+            Titulo = "Trío. Dos amigas, un hombre y la peste en Sicilia",
+            Editorial = "Altamarea",
+            ISBN = 9788412204285,
+            Edicion = 3,
+            Precio = 533.0f,
+            Imagen = "https://www.gandhi.com.mx/media/catalog/product/t/m/tmp9788412204285_53ba.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=478&width=300&canvas=300:478",
+        },
+    };
+}
